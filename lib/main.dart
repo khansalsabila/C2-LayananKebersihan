@@ -45,9 +45,7 @@ class MyApp extends StatelessWidget {
     return GetMaterialApp(
         debugShowCheckedModeBanner: false,
         title: 'Kebersihan Kota',
-        home: const SplashScreen(),
-        routes: <String, WidgetBuilder>{
-          '/login': (BuildContextcontext) => LoginPage()
-        });
+        home: LoginPage(),
+        );
   }
 }
